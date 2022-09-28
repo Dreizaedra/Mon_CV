@@ -1,0 +1,158 @@
+body {
+    width: 1200px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 1px solid #161a1d; /* remove when finished */
+    background-color: #edf2f4;
+    margin: auto;
+}
+
+
+/* GENERAL: */
+section h4 {
+    text-align: center;
+}
+
+.ls-none {
+    list-style: none;
+}
+
+.ls-square {
+    list-style: square;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+
+/* FLEXBOX SETTINGS: */
+.flex {
+    display: flex;
+}
+
+.block {
+    display: block;
+}
+
+.jc-space-between {
+    justify-content: space-between;
+}
+
+
+/* COLORS: */
+.text-black {
+    color: #212529;
+}
+
+.text-white {
+    color: #edf2f4;
+}
+
+.bkgd-red {
+    background-color: #9d0208;
+}
+
+.bkgd-black {
+    background-color: #161a1d;
+}
+
+
+/* HEADER: */
+#black-bar-top {
+    width: 356px;
+    height: 20px;
+}
+
+header {
+    border-bottom-right-radius: 50px;
+    box-shadow: 0 10px #6a040f;
+    text-shadow: 3px 3px #6a040f;
+}
+
+h1 {
+    margin: 0 0 0 100px;
+    padding-top: 45px;
+}
+
+h2 {
+    margin: 0 0 10px 100px;
+    padding-bottom: 45px;
+}
+
+
+/* LEFT SIDE: */
+#left-side {
+    width: 400px;
+}
+
+#left-side .arrow {
+    font-size: 0;
+    margin-top: 21.28px;
+}
+
+#left-side .inner-arrow {
+    width: 316px;
+    height: 40px;
+    display: inline-block;
+    font-size: 18px;
+    line-height: 40px;
+    vertical-align: middle;
+    text-transform: uppercase;
+    box-shadow: 3px 2px 0 #6a040f;
+    text-shadow: 1px 1px #6a040f;
+}
+
+#left-side .arrow:before {
+    height: 0;
+    content: '';
+    display: inline-block;
+    border: 20px solid transparent;
+    border-right-color: #9d0208;
+    vertical-align: middle;
+}
+
+#left-side li {
+    margin: 20px 8px;
+    list-style-position: inside;
+}
+
+#left-side li img {
+    width: 35px;
+    line-height: 35px;
+    margin: 0 10px 0 -14px;
+    vertical-align: middle;
+}
+
+
+/* RIGHT SIDE: */
+#right-side {
+    width: 800px;
+    margin: 0 66px;
+}
+
+#right-side h4 {
+    border-radius: 3px;
+    line-height: 40px;
+    font-size: 18px;
+    vertical-align: middle;
+    box-shadow: 3px 3px grey;
+    text-shadow: 1px 1px grey;
+}
+
+#right-side li {
+    margin-bottom: 20px;
+} 
+
+
+/* FOOTER: */
+#black-bar-bottom {
+    width: 356px;
+}
+
+#box {
+    border-top-left-radius: 15px;
+}

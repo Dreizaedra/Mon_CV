@@ -1,9 +1,9 @@
-body {
+#frame {
     width: 1200px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    border: 1px solid #161a1d; /* remove when finished */
-    background-color: #edf2f4;
     margin: auto;
+    border: 1px solid #161a1d;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #edf2f4;
 }
 
 
@@ -32,10 +32,6 @@ section h4 {
 /* FLEXBOX SETTINGS: */
 .flex {
     display: flex;
-}
-
-.block {
-    display: block;
 }
 
 .jc-space-between {
@@ -147,6 +143,9 @@ h2 {
     margin-bottom: 20px;
 } 
 
+#right-side li p {
+    margin: 1px 0;
+}
 
 /* FOOTER: */
 #black-bar-bottom {
